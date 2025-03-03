@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-data Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style> 
+
+h1 {text-align: center;
+  color: white;
+}
+h2 {text-align: center;}
+  body {background-image: url('img.jpg')
+</style>
+<body>
+    <header>
+        <h1><u>Bio-data Form</u></h1>
+    </header>
+
+    <form>
+        <section>
+            <h2>Personal Details</h2>
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="mobile"><strong>Mobile No#:</strong></label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required><br><br>
+
+            <label for="address"><strong>Address:</strong></label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required><br><br>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Personal Information</h2>
+            <label for="gender"><strong>Gender:</strong></label>
+            <select id="gender" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label for="dob"><strong>Date of Birth:</strong></label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="nationality"><strong>Nationality:</strong></label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your nationality" required><br><br>
+
+            <label for="religion"><strong>Religion:</strong></label>
+            <input type="text" id="religion" name="religion" placeholder="Enter your religion"><br><br>
+
+            <label for="father"><strong>Father's Name:</strong></label>
+            <input type="text" id="father" name="father" placeholder="Enter your father's name"><br><br>
+
+            <label for="mother"><strong>Mother's Name:</strong></label>
+            <input type="text" id="mother" name="mother" placeholder="Enter your mother's name"><br><br>
+
+            <label for="languages"><strong>Languages Known:</strong></label>
+            <input type="text" id="languages" name="languages" placeholder="e.g., English, Tagalog"><br><br>
+
+            <label for="hobbies"><strong>Hobbies:</strong></label>
+            <input type="text" id="hobbies" name="hobbies" placeholder="e.g., Basketball, Online Games"><br><br>
+
+            <label for="status"><strong>Status:</strong></label>
+            <select id="status" name="status">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Education</h2>
+            <label for="elementary"><strong>Elementary:</strong></label>
+            <input type="text" id="elementary" name="elementary" placeholder="Enter elementary school name"><br><br>
+
+            <label for="highschool"><strong>High School:</strong></label>
+            <input type="text" id="highschool" name="highschool" placeholder="Enter high school name"><br><br>
+
+            <label for="seniorhigh"><strong>Senior High School:</strong></label>
+            <input type="text" id="seniorhigh" name="seniorhigh" placeholder="Enter senior high school name"><br><br>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Work Experience</h2>
+            <label for="construction"><strong>Construction Worker:</strong></label>
+            <input type="checkbox" id="construction" name="work" value="Construction Worker"><br><br>
+
+            <label for="molder"><strong>Molder:</strong></label>
+            <input type="checkbox" id="molder" name="work" value="Molder"><br><br>
+
+            <label for="farmer"><strong>Farmer:</strong></label>
+            <input type="checkbox" id="farmer" name="work" value="Farmer"><br><br>
+        </section>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
